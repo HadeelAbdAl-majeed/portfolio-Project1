@@ -210,7 +210,7 @@ body {
   border-radius: 50%;
   background:
     linear-gradient(#ffffff, #ffffff) padding-box,
-    linear-gradient(to bottom, #b3b0b0 15%, #ffffff 50%, #78a4cb 100%) border-box;
+    linear-gradient(to bottom, #e2cd77 15%, #ffffff 50%, #78a4cb 100%) border-box;
   box-shadow:
     rgb(204, 219, 232) 3px 3px 6px 0px inset,
     #78a4cb -3px -3px 6px 1px inset;
@@ -357,6 +357,8 @@ body {
   /* background-color: var(--second-color); */
   border-radius: 10px;
   border: 2px solid var(--second-color);
+  border-bottom-color: var(--accent-color);
+  border-right-color: var(--accent-color);
   /* height: 300px; */
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
